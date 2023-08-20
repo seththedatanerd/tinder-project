@@ -45,9 +45,9 @@ matches_daily_by_gender <- tinder %>% unnest_wider(profile_info) %>%
 matches_daily_by_gender
 
 my_df <- as.data.frame(General_Data)
-write.csv(my_df, "//files.kent.ac.uk/usersJ/jsm47/Home/My Files//General_Data.csv", row.names= FALSE)
+write.csv(my_df, "YOURPATH/My Files//General_Data.csv", row.names= FALSE)
 
 my_df2 <- as.data.frame(matches_daily_by_gender)
-write.csv(my_df2, "//files.kent.ac.uk/usersJ/jsm47/Home/My Files//matches_daily_by_gender.csv", row.names= FALSE)
+write.csv(my_df2, "YOURPATH/Home/My Files//matches_daily_by_gender.csv", row.names= FALSE)
 
 
